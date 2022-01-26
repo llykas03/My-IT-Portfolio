@@ -1,0 +1,208 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    box-sizing: 1.5;
+    background-color: #f1f1f1;
+}
+h1, h2, h5, h5, p {
+    color: #757575;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.large {
+    font-size: 18px;
+}
+hr {
+    margin: 20px 0;
+    background: #757575;
+}
+.sdw {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+}
+.wrapper {
+    max-width: 1400px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maincon {
+    padding: 0 8px;
+    display: flex;
+}
+.aside {
+    width: 33%;
+}
+.padd {
+    padding: 0 16px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.name {
+    background-color: #000000;
+    position: relative;
+    width: 60%;
+}
+i {
+    color:  #815b32;
+}
+h3 {
+    padding: 0 15px;
+    margin-top: -35px;
+    color: white;
+    
+}
+.c-s {
+    padding: 16px;
+    padding-top: 0;
+}
+.cont {
+    display: block;
+    margin: 15px 0;
+}
+.progress {
+    display: flex;
+    height: 1.2rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+.bgc {
+    background-color: #815b32;
+}
+.rad {
+    border-radius: 10px;
+}
+.content {
+    width: 66%;
+}
+.contone{
+    background-color: white;
+    padding: 0 16px;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+}
+h1 {
+    margin-bottom: 10px;
+    padding: 16px 0;
+    padding-top: 25px;
+}
+.rov {
+    padding: 0 16px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    margin: 10px 0;
+    opacity: 0.80;
+}
+b {
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+    color: #815b32;
+}
+h6 {
+    margin: 10px 0;
+    color: #815b32;
+}
+.hrd {
+    color: black;
+}
+.conttwo {
+    padding: 0 16px;
+    margin-bottom: 8px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+.cards {
+    padding: 0 24px;
+}
+.h3-cards {
+    text-align: center;
+}
+.h3-cards h3 {
+    color: #000;
+}
+.card-txt {
+    background: white;
+}
+.card-txt h6 {
+    margin: 0;
+    padding: 8px 0;
+    text-align: center;
+}
+.card-txt p {
+    padding: 8px;
+    margin: 0;
+    text-align: start;
+}
+.mybtn  {
+    margin-bottom: 8px;
+}
+footer {
+    margin-top: 20px;
+    padding: 7px 0;
+    text-align: center;
+    background-color: #815b32;
+}
+footer p {
+    color: white;
+}
+footer i {
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+}
+@media all and (max-width: 1363px) {
+    .name {
+        width: 62%;
+    }
+}
+@media all and (max-width: 1050px) {
+    .name {
+        width: 80%;
+    }
+}
+@media all and (max-width: 780px) {
+    .name h3 {
+        font-size: 18px;
+    }
+}
+@media all and (max-width: 720px) {
+
+    .maincon {
+        display: block;
+        padding: 0;
+    }
+    .aside {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+        margin-top: 16px;
+        padding: 0 15px;
+    }
+    .name {
+        width: 40%;
+    }
+}
+@media all and (max-width: 440px) {
+    .name {
+        width: 49%;
+    }
+}
+@media all and (max-width: 376px) {
+    .name {
+        width: 59%;
+    }
+}
