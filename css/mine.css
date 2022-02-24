@@ -63,6 +63,13 @@ h3 {
     padding: 16px;
     padding-top: 0;
 }
+.typing {
+    width: 23ch;
+    animation: typing 5s steps(28), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
 .cont {
     display: block;
     margin: 15px 0;
@@ -163,6 +170,21 @@ footer i {
     cursor: pointer;
     padding: 3px;
 }
+.nontyping {
+    display: none;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
 @media all and (max-width: 1363px) {
     .name {
         width: 62%;
@@ -176,6 +198,17 @@ footer i {
 @media all and (max-width: 780px) {
     .name h3 {
         font-size: 18px;
+    }
+    .typing {
+        display: none;
+    }
+    .tabtyping {
+        display: block;
+        width: 19ch;
+        animation: typing 5s steps(28), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
     }
 }
 @media all and (max-width: 720px) {
@@ -194,6 +227,12 @@ footer i {
     }
     .name {
         width: 40%;
+    }
+    .typing {
+        display: block;
+    }
+    .tabtyping {
+        display: none;
     }
 }
 @media all and (max-width: 440px) {
