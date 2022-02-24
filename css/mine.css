@@ -170,10 +170,11 @@ footer i {
     cursor: pointer;
     padding: 3px;
 }
-.nontyping {
+.tabtyping {
     display: none;
 }
 
+/* animatons */
 @keyframes typing {
     from {
         width: 0;
@@ -185,6 +186,7 @@ footer i {
     }
 }
 
+/* flex */
 @media all and (max-width: 1363px) {
     .name {
         width: 62%;
