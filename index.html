@@ -1,313 +1,549 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="./img/IT.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/IT.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="./css/mine.css">
+    <link rel="stylesheet" href="./css/mine.css" />
     <title>My IT Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Page content -->
     <div class="wrapper">
-
-        <!-- Grid -->
-        <div class="maincon">
-
-            <!-- Aside Left -->
-            <div class="aside" data-aos="fade-right">
-                <div class="padd">
-                    <div class="sdw">
-                        <div class="img">
-                            <img src="./img/ja.jpg" alt="My image">
-                            <div class="name">
-                                <h3>Luka Stojanović</h3>
-                            </div>
-                        </div>
-                        <div class="c-s">
-                            <p class="large"><b><i class="fas fa-info"></i> Contact</b></p>
-                            <p class="typing"><i class="fas fa-briefcase"></i> Frontend Web Developer</p>
-                            <p class="tabtyping"><i class="fas fa-briefcase"></i> Frontend Developer</p>
-                            <p><i class="fas fa-house-user"></i> Niš, Serbia</p>
-                            <div class="contact">
-                                <a class="cont" href="mailto:llykas03@gmail.com"><i class="fas fa-mail-bulk"></i>
-                                    llykas03@gmail.com</a>
-                                <a class="cont" href="tel:+381616936134"><i class="fas fa-phone-volume"></i>
-                                    0616936134</a>
-                                <a class="cont" href="https://github.com/llykas03" target="blank"><i
-                                        class="fab fa-github"></i>
-                                    Github</a>
-                            </div>
-                            <hr>
-                            <p class="large"><b><i class="fas fa-asterisk"></i> Skills</b></p>
-                            <div class="skillimg">
-                                <img src="./img/html_css.png" alt="">
-                            </div>
-                            <p>with JS still learning</p>
-                            <hr>
-                            <p class="large"><b><i class="fas fa-book"></i> Libraries</b></p>
-                            <p>- Bootstrap</p>
-                            <p>- AOS (Animate On Scroll)</p>
-                            <p>- CSS Animate</p>
-                        </div>
-                    </div>
+      <!-- Grid -->
+      <div class="maincon">
+        <!-- Aside Left -->
+        <div class="aside" data-aos="fade-right">
+          <div class="padd">
+            <div class="sdw">
+              <div class="img">
+                <img src="./img/ja.jpg" alt="My image" />
+                <div class="name">
+                  <h3>Luka Stojanović</h3>
                 </div>
+              </div>
+              <div class="c-s">
+                <p class="large">
+                  <b><i class="fas fa-info"></i> Contact</b>
+                </p>
+                <p class="typing">
+                  <i class="fas fa-briefcase"></i> Frontend Web Developer
+                </p>
+                <p class="tabtyping">
+                  <i class="fas fa-briefcase"></i> Frontend Developer
+                </p>
+                <p><i class="fas fa-house-user"></i> Niš, Serbia</p>
+                <div class="contact">
+                  <a class="cont" href="mailto:llykas03@gmail.com"
+                    ><i class="fas fa-mail-bulk"></i> llykas03@gmail.com</a
+                  >
+                  <a class="cont" href="tel:+381616936134"
+                    ><i class="fas fa-phone-volume"></i> 0616936134</a
+                  >
+                  <a
+                    class="cont"
+                    href="https://github.com/llykas03"
+                    target="blank"
+                    ><i class="fab fa-github"></i> Github</a
+                  >
+                </div>
+                <hr />
+                <p class="large">
+                  <b><i class="fas fa-asterisk"></i> Skills</b>
+                </p>
+                <div class="skillimg">
+                  <img src="./img/html_css.png" alt="" />
+                </div>
+                <p>with JS still learning</p>
+                <hr />
+                <p class="large">
+                  <b><i class="fas fa-book"></i> Libraries</b>
+                </p>
+                <p>- Bootstrap</p>
+                <p>- AOS (Animate On Scroll)</p>
+                <p>- CSS Animate</p>
+              </div>
             </div>
-
-            <!-- upper right card -->
-            <div class="content">
-                <div class="contone sdw" data-aos="fade-down">
-                    <h1><i class="fas fa-suitcase"></i> Work Expirience</h1>
-                    <div class="rov">
-                        <h5 class="copacity"><b>Frontend Web Developer / <a
-                                    href="https://llykas03.github.io/Cafeteria-Free/" target="blank">Cafeteria
-                                    Free</a></b></h5>
-                        <h6 class="text-brow"><i class="far fa-calendar-alt"></i> July 2021 - <span
-                                class="badge bgc">Current</span></h6>
-                        <p class="hrd">I don't have any professional work experience at the moment. But every day I try
-                            to learn as much as possible and be more professional. What bothered me the most was that I
-                            wasn't in the IT department, but now I am enrolling in a higher technical school
-                            with an IT department.</p>
-                    </div>
-                </div>
-
-                <!-- lower right card -->
-                <div class="conttwo sdw" data-aos="fade-up">
-                    <h1><i class="fas fa-certificate"></i> Education</h1>
-                    <div class="rov">
-                        <h5 class="copacity"><b>Academy of Technical-Educational Vocational Studies</b></h5>
-                        <h6 class="text-brow"><i class="far fa-calendar-alt"></i> 2022</h6>
-                        <p class="hrd">modern computer technologies</p>
-                        <hr>
-                    </div>
-                    <div class="rov">
-                        <h5 class="copacity">W3Schools.com</h5>
-                        <h6 class="text-brow"><i class="far fa-calendar-alt"></i> Forever</h6>
-                        <p class="hrd">Web Development! All I need to know in one place</p>
-                        <hr>
-                    </div>
-                    <div class="rov">
-                        <h5 class="copacity">The Kampster Online</h5>
-                        <h6 class="text-brow"><i class="far fa-calendar-alt"></i> 2019 - 2020</h6>
-                        <p class="hrd">Private course</p>
-                        <hr>
-                    </div>
-                    <div class="rov">
-                        <h5 class="copacity">high school "Srednja strčna škola"</h5>
-                        <h6 class="text-brow"><i class="far fa-calendar-alt"></i> 2018 - 2022</h6>
-                        <p class="hrd">mechanical technician for computer construction</p>
-                        <hr>
-                    </div>
-                    <div class="rov">
-                        <h5 class="copacity">Private mentor Ivan</h5>
-                        <h6 class="text-brow"><i class="far fa-calendar-alt"></i> Always when he has free time :)</h6>
-                        <p class="hrd">He taught me a lot from his experience as a programmer. He is one of the best
-                            programmers in serbia. Thank him so much for the selfless sharing of knowledge.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- Lower cards -->
-        <div class="cards">
-            <div class="row">
-                <div class="row col-sm-12 h3-cards pt-5" data-aos="fade-down">
-                    <h3>Projects during learning</h3>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/My-Website/" target="blank"><img src="./img/8.jpg" alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>Flexible</h6>
-                        <p>First site where I learn flexible.</p>
-                        <a href="https://llykas03.github.io/My-Website/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/Parallax/" target="blank"><img src="./img/3.jpg" alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>Parallax</h6>
-                        <p>my first parallax project.</p>
-                        <a href="https://llykas03.github.io/Parallax/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/First-Bootstrap-site/" target="blank"><img src="./img/6.jpg"
-                            alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>First Bootstrap site</h6>
-                        <p>First project project where I used Boot.</p>
-                        <a href="https://llykas03.github.io/First-Bootstrap-site/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="row col-sm-12 h3-cards pt-5" data-aos="fade-down">
-                    <h3>Finished projects</h3>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/Web-page-Template/" target="blank"><img src="./img/2.jpg"></a>
-                    <div class="card-txt text-center">
-                        <h6>Simple Web page</h6>
-                        <p>Full flexible.</p>
-                        <a href="https://llykas03.github.io/Web-page-Template/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/Art/" target="blank"><img src="./img/9.jpg" alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>Art album</h6>
-                        <p>Smoll site for PH artist.</p>
-                        <a href="https://llykas03.github.io/Art/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/My-Blog/" target="blank">
-                        <img src="./img/7.jpg" alt="">
-                        <a href="" target="blank"></a>
-                        <div class="card-txt text-center">
-                            <h6>My blog</h6>
-                            <p>Its blog.</p>
-                            <a href="https://llykas03.github.io/My-Blog/" target="blank"><button type="button"
-                                    class="btn btn-dark mybtn">Click
-                                    me!</button></a>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/Coffe-Teme/" target="blank"><img src="./img/4.jpg" alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>The Cafe site</h6>
-                        <p>Mini site for cafe restaruant.</p>
-                        <a href="https://llykas03.github.io/Coffe-Teme/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/Interior-Design/" target="blank"><img src="./img/1.jpg"
-                            alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>Interior design site</h6>
-                        <p>Site for interior design company.</p>
-                        <a href="https://llykas03.github.io/Interior-Design/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/Cafeteria-Free/" target="blank"><img src="./img/5.jpg"
-                            alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>Cafeteria Free</h6>
-                        <p>Navigation bar full in css.</p>
-                        <a href="https://llykas03.github.io/Cafeteria-Free/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="row col-sm-12 h3-cards pt-5" data-aos="fade-down">
-                    <h3>NEW projects in JavaScript!!! <span class="badge bg-danger">NEW</span></h3>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/kalkulator-inflacije-js/" target="blank"><img src="./img/10.jpg"
-                            alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>inflation calculator in JavaScript</h6>
-                        <p>here you can calculate the inflation rate.</p>
-                        <a href="https://llykas03.github.io/kalkulator-inflacije-js/" target="blank"><button
-                                type="button" class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/kalkulator-potrosnje-goriva-js/" target="blank"><img
-                            src="./img/11.jpg" alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>fuel consumption calculator</h6>
-                        <p>you can calculate fuel consumption to some route and price in RSD.</p>
-                        <a href="https://llykas03.github.io/kalkulator-potrosnje-goriva-js/" target="blank"><button
-                                type="button" class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/shopping-cart-js/" target="blank"><img src="./img/12.jpg"
-                            alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>Shopping cart</h6>
-                        <p>Here you can select the products of your choice and remove them.</p>
-                        <a href="https://llykas03.github.io/shopping-cart-js/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/Bubnjevi/" target="blank"><img src="./img/13.jpg" alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>JS Drums <span class="badge bg-success">Latest</span></h6>
-                        <p>Your musical skills will come to the fore.</p>
-                        <a href="https://llykas03.github.io/Bubnjevi/" target="blank"><button type="button"
-                                class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3" data-aos="zoom-in">
-                    <a href="https://llykas03.github.io/Menu-slider-sort-modal/" target="blank"><img src="./img/14.jpg"
-                            alt=""></a>
-                    <div class="card-txt text-center">
-                        <h6>Menu, Slider, Sorting, Modal <span class="badge bg-success">Latest
-                            </span></h6>
-                        <p>Responsive menu, carusel, sorting cards as you wish, modal.</p>
-                        <a href="https://llykas03.github.io/Menu-slider-sort-modal/" target="blank"><button
-                                type="button" class="btn btn-dark mybtn">Click
-                                me!</button></a>
-                    </div>
-                </div>
-                <div class="row col-sm-12 h3-cards pt-5" data-aos="fade-down">
-                    <h3>And many projects under construction!</h3>
-                </div>
+
+        <!-- upper right card -->
+        <div class="content">
+          <div class="contone sdw" data-aos="fade-down">
+            <h1><i class="fas fa-suitcase"></i> Work Expirience</h1>
+            <div class="rov">
+              <h5 class="copacity">
+                <b
+                  >Frontend Web Developer /
+                  <a
+                    href="https://llykas03.github.io/Cafeteria-Free/"
+                    target="blank"
+                    >Cafeteria Free</a
+                  ></b
+                >
+              </h5>
+              <h6 class="text-brow">
+                <i class="far fa-calendar-alt"></i> July 2021 -
+                <span class="badge bgc">Current</span>
+              </h6>
+              <p class="hrd">
+                I currently do not have any professional work experience. But
+                every day I try to learn as much as possible and be more
+                professional. What bothered me the most was that I was not in
+                the IT department, but now I am a student at ATVSS Niš, majoring
+                in modern computer technologies.
+              </p>
             </div>
+          </div>
+
+          <!-- lower right card -->
+          <div class="conttwo sdw" data-aos="fade-up">
+            <h1><i class="fas fa-certificate"></i> Education</h1>
+            <div class="rov">
+              <h5 class="copacity">
+                <b>Academy of Technical-Educational Vocational Studies</b>
+              </h5>
+              <h6 class="text-brow">
+                <i class="far fa-calendar-alt"></i> 2022
+              </h6>
+              <p class="hrd">Modern computer technologies</p>
+              <hr />
+            </div>
+            <div class="rov">
+              <h5 class="copacity">W3Schools.com</h5>
+              <h6 class="text-brow">
+                <i class="far fa-calendar-alt"></i> Forever
+              </h6>
+              <p class="hrd">
+                Web Development! All I need to know in one place
+              </p>
+              <hr />
+            </div>
+            <div class="rov">
+              <h5 class="copacity">The Kampster Online</h5>
+              <h6 class="text-brow">
+                <i class="far fa-calendar-alt"></i> 2019 - 2020
+              </h6>
+              <p class="hrd">Private course</p>
+              <hr />
+            </div>
+            <div class="rov">
+              <h5 class="copacity">High school "Srednja strčna škola"</h5>
+              <h6 class="text-brow">
+                <i class="far fa-calendar-alt"></i> 2018 - 2022
+              </h6>
+              <p class="hrd">Mechanical technician for computer construction</p>
+              <hr />
+            </div>
+            <div class="rov">
+              <h5 class="copacity">
+                Private mentor
+                <a
+                  href="https://www.linkedin.com/in/ivan-trajkovi%C4%87-54798416a/"
+                  target="_blank"
+                  >Ivan</a
+                >
+              </h5>
+              <h6 class="text-brow">
+                <i class="far fa-calendar-alt"></i> Always when he has free time
+                :)
+              </h6>
+              <p class="hrd">
+                He taught me a lot from his experience as a programmer. He is
+                one of the best programmers in serbia. Thank him so much for the
+                selfless sharing of knowledge.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+      <!-- Lower cards -->
+      <div class="cards">
+        <div class="row">
+          <div class="row col-sm-12 h3-cards pt-5" data-aos="fade-down">
+            <h3>Projects during learning</h3>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/My-Website/" target="blank"
+              ><img src="./img/8.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>Flexible</h6>
+              <p>First site where I learn flexible.</p>
+              <a href="https://llykas03.github.io/My-Website/" target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/Parallax/" target="blank"
+              ><img src="./img/3.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>Parallax</h6>
+              <p>My first parallax project.</p>
+              <a href="https://llykas03.github.io/Parallax/" target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a
+              href="https://llykas03.github.io/First-Bootstrap-site/"
+              target="blank"
+              ><img src="./img/6.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>First Bootstrap site</h6>
+              <p>First project project where I used Boot.</p>
+              <a
+                href="https://llykas03.github.io/First-Bootstrap-site/"
+                target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="row col-sm-12 h3-cards pt-5" data-aos="fade-down">
+            <h3>Finished projects</h3>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a
+              href="https://llykas03.github.io/Web-page-Template/"
+              target="blank"
+              ><img src="./img/2.jpg"
+            /></a>
+            <div class="card-txt text-center">
+              <h6>Simple Web page</h6>
+              <p>Full flexible.</p>
+              <a
+                href="https://llykas03.github.io/Web-page-Template/"
+                target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/Art/" target="blank"
+              ><img src="./img/9.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>Art album</h6>
+              <p>A small site for PH artists.</p>
+              <a href="https://llykas03.github.io/Art/" target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/My-Blog/" target="blank">
+              <img src="./img/7.jpg" alt="" />
+              <a href="" target="blank"></a>
+              <div class="card-txt text-center">
+                <h6>My blog</h6>
+                <p>Its blog.</p>
+                <a href="https://llykas03.github.io/My-Blog/" target="blank"
+                  ><button type="button" class="btn btn-dark mybtn">
+                    Click me!
+                  </button></a
+                >
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/Coffe-Teme/" target="blank"
+              ><img src="./img/4.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>The Cafe site</h6>
+              <p>Mini site for cafe restaruant.</p>
+              <a href="https://llykas03.github.io/Coffe-Teme/" target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/Interior-Design/" target="blank"
+              ><img src="./img/1.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>Interior design site</h6>
+              <p>Site for interior design company.</p>
+              <a
+                href="https://llykas03.github.io/Interior-Design/"
+                target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/Cafeteria-Free/" target="blank"
+              ><img src="./img/5.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>Cafeteria Free</h6>
+              <p>Navigation bar full in css.</p>
+              <a
+                href="https://llykas03.github.io/Cafeteria-Free/"
+                target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="row col-sm-12 h3-cards pt-5" data-aos="fade-down">
+            <h3>
+              NEW projects in JavaScript!!!
+              <span class="badge bg-danger">NEW</span>
+            </h3>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a
+              href="https://llykas03.github.io/kalkulator-inflacije-js/"
+              target="blank"
+              ><img src="./img/10.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>inflation calculator in JavaScript</h6>
+              <p>here you can calculate the inflation rate.</p>
+              <a
+                href="https://llykas03.github.io/kalkulator-inflacije-js/"
+                target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a
+              href="https://llykas03.github.io/kalkulator-potrosnje-goriva-js/"
+              target="blank"
+              ><img src="./img/11.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>fuel consumption calculator</h6>
+              <p>
+                you can calculate fuel consumption to some route and price in
+                RSD.
+              </p>
+              <a
+                href="https://llykas03.github.io/kalkulator-potrosnje-goriva-js/"
+                target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a
+              href="https://llykas03.github.io/shopping-cart-js/"
+              target="blank"
+              ><img src="./img/12.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>Shopping cart</h6>
+              <p>
+                Here you can select the products of your choice and remove them.
+              </p>
+              <a
+                href="https://llykas03.github.io/shopping-cart-js/"
+                target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/Bubnjevi/" target="blank"
+              ><img src="./img/13.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>JS Drums</h6>
+              <p>Your musical skills will come to the fore.</p>
+              <a href="https://llykas03.github.io/Bubnjevi/" target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a
+              href="https://llykas03.github.io/Menu-slider-sort-modal/"
+              target="blank"
+              ><img src="./img/14.jpg" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>Menu, Slider, Sorting, Modal</h6>
+              <p>Responsive menu, carusel, sorting cards as you wish, modal.</p>
+              <a
+                href="https://llykas03.github.io/Menu-slider-sort-modal/"
+                target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/Guess-My-Number/" target="blank"
+              ><img src="./img/16.png" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>
+                Guess My Number
+                <span class="badge bg-success">Latest </span>
+              </h6>
+              <p>Try to guess a number between 0 and 20.</p>
+              <a
+                href="https://llykas03.github.io/Guess-My-Number/"
+                target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-4 pt-3"
+            data-aos="zoom-in"
+          >
+            <a href="https://llykas03.github.io/Pig-Game/" target="blank"
+              ><img src="./img/15.png" alt=""
+            /></a>
+            <div class="card-txt text-center">
+              <h6>
+                Pig game
+                <span class="badge bg-success">Latest </span>
+              </h6>
+              <p>
+                The first person to reach 100 points without the dice showing 1
+                wins.
+              </p>
+              <a href="https://llykas03.github.io/Pig-Game/" target="blank"
+                ><button type="button" class="btn btn-dark mybtn">
+                  Click me!
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="row col-sm-12 h3-cards pt-5" data-aos="fade-down">
+            <h3>And many projects under construction!</h3>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- footer -->
     <footer>
-        <p>Find me on social media:</p>
-        <a href="https://github.com/llykas03" target="blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/llykas_/" target="blank"><i class="fab fa-instagram"></i></a>
-        <p>Powered by Luka in Jan 2022</p>
+      <p>Find me on social media:</p>
+      <a href="https://github.com/llykas03" target="blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a href="https://www.instagram.com/llykas_/" target="blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <p>Powered by Luka in Jan 2023</p>
     </footer>
 
     <!-- Scripts  -->
-    <script src="https://kit.fontawesome.com/a6c8e267b8.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a6c8e267b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init(
-            { duration: 900, }
-        );
+      AOS.init({ duration: 900 });
     </script>
-</body>
-
+  </body>
 </html>
